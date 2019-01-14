@@ -8,4 +8,8 @@ class Member
     @power = params[:power]
     @motto = params[:motto]
   end
+  
+  def self.all
+    @@all
+  end
 end
