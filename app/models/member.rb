@@ -7,6 +7,8 @@ class Member
     @name = params[:name]
     @power = params[:power]
     @motto = params[:motto]
+    
+    @@all.push(self)
   end
   
   def self.all
