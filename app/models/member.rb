@@ -1,3 +1,9 @@
 class Member
+  attr_accessor :name, :power, :motto
   
+  def initialize(params)
+    @name = params[:name]
+    @power = params[:power]
+    @motto = params[:motto]
+  end
 end
